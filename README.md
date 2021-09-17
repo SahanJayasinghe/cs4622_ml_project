@@ -90,7 +90,7 @@ Using the data provided by the **Tanzanian Ministry of Water**, develop a soluti
 - missing values and outliers found in
     - population
 
-        ![population_distribution](assets\population_distribution.png)
+        ![population_distribution](assets/population_distribution.png)
 
         - 21381 rows found with population = 0
         - 7025 rows found with population = 1
@@ -100,7 +100,7 @@ Using the data provided by the **Tanzanian Ministry of Water**, develop a soluti
 
     - longitude
 
-        ![longitude_distribution](assets\longitude_distribution.png)
+        ![longitude_distribution](assets/longitude_distribution.png)
 
         According to [World Population Review web site](https://worldpopulationreview.com/country-locations/where-is-tanzania), **Tanzania** is located in the world map within the longitude range 29°10' - 40°29'.
 
@@ -108,18 +108,18 @@ Using the data provided by the **Tanzanian Ministry of Water**, develop a soluti
 
     - gps_height
 
-        ![gps_height_distribution](assets\gps_height_distribution.png)
+        ![gps_height_distribution](assets/gps_height_distribution.png)
 
         There are 20438 rows with 0 _gps_height_ value which is probably an outlier when lookking at the above distribution.
 
     - construction_year
 
-        ![construction_year_distribution](assets\construction_year_distribution.png)
+        ![construction_year_distribution](assets/construction_year_distribution.png)
 
         There are 20709 rows with _construction_year_ = 0
 
     - public_meeting
-        ![public_meeting_countplot](assets\public_meeting_countplot.png)
+        ![public_meeting_countplot](assets/public_meeting_countplot.png)
 
         With respect to the labels, _public_meeting_ feature seems to be decisive for prediction. But there were 3334 rows with `NULL` values.
 
@@ -199,7 +199,7 @@ Encoded the categories of a feature based on the ratio of `functional` count aga
 
     Example: Target encoding for quantity_group feature
 
-![quantity_group_countplot](assets\quantity_group_countplot.png)
+![quantity_group_countplot](assets/quantity_group_countplot.png)
 
 According to above count-plot, `'enough'` category obtains the highest target encoding value and `'dry'` category obtains the lowest target encoding value.
 
@@ -213,4 +213,4 @@ Best accuracy at the competition obtained from the **target encoding** approach
     
     Accuracy: 80.95%
 
-![accuracy](assets\accuracy.png)
+![accuracy](assets/accuracy.png)
